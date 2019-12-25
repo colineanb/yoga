@@ -1,0 +1,230 @@
+*{
+    font-family: neue-haas-unica, sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size:16px;
+    margin: 0;
+    padding: 0;
+}
+
+/********************
+        NAV 
+********************/
+nav{
+    display: flex;
+    align-items: center;
+    width: 99.8%;
+    /* position: fixed; */
+    /* border:2px solid red; */
+    justify-content: center;
+    height:6.25em;
+
+}
+
+nav .nav-menu{
+    width: 80%;
+    display:flex;
+    /* border:solid blueviolet 4px; */
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+nav .nav-menu ul{
+    display:flex;
+    flex-direction: row;
+}
+nav .nav-menu ul li{
+    text-decoration: none;
+    color: #010101;
+    list-style: none;
+    margin-left:2rem;
+    z-index: 99999;
+}
+
+nav .nav-menu a{
+    text-decoration: none;
+    color: white;
+    list-style: none;
+    font-weight:400;
+}
+
+.btn-contact{
+    background-color: #E7F3F1;
+    color:white;
+    padding: 0.6em 1.5em;
+    border-radius: 1000px;
+}
+
+
+/********************
+        Main Content 
+********************/
+
+.bg{
+    width: 100%;
+    min-height: 80vh;
+    background: url(../images/bg.png) no-repeat;
+    background-size: cover;
+}
+
+.main-content{
+    margin-top:4em;
+    margin-left:10%;
+    width:80%;
+    /* border:3px solid orange; */
+}
+
+.main-content .first-container{
+    display:flex;
+    /* border:3px solid purple; */
+}
+
+
+.main-content .first-container .left-content{
+    width:90%;
+    /* border:3px solid blue; */
+}
+
+.main-content .first-container .left-content h1{
+   font-size: 2.2em; 
+   font-weight: 500;
+   line-height: 1.5em;
+   margin-bottom:0.7em;
+   color:white
+}
+
+.main-content .first-container .left-content b{
+    font-family: minion-pro, serif;
+    font-style: italic;
+    color:#71BCBA; 
+    font-size: 1.3em; 
+    font-weight: 600;
+ }
+
+ .main-content .first-container .left-content h2{
+     font-weight: 1em;
+     color:white;
+     font-weight: 500;
+     margin-bottom:4em;
+ }
+
+ .main-content .first-container .left-content a{
+    text-decoration: none;
+    background:#129490;
+    padding:0.6em 1.5em;
+    border-radius: 100px;
+    font-weight: 500;
+    color:white;
+ }
+
+ .main-content .first-container .right-content {
+    /* border:3px solid rosybrown; */
+    width:70%;
+    margin-top:3em;
+ }
+
+ .main-content .first-container .right-content p {
+    color:white;
+    line-height: 1.6em;
+ }
+ .main-content .first-container .right-content b{
+     font-weight: 600;
+ }
+
+ /********************
+       Light bg 
+********************/
+
+.light-bg{
+    display:flex;
+    background: #E7F3F1;
+    height:15em;
+    align-items: center;
+}
+
+.light-bg .second-container{
+    /* border:2px solid red; */
+    margin-left:10%;
+    width:80%;
+}
+
+.light-bg .second-container p{
+    font-size: 2em;
+    line-height: 2em;
+    font-family: minion-pro, serif;
+}
+
+.light-bg .second-container b{
+    font-weight:bold;
+    font-size: 1em;
+    font-family: minion-pro, serif;
+}
+
+.light-bg img{
+    margin-right:10%;
+    margin-top:17.5em;
+}
+
+
+/********************
+   L'intervenante
+********************/
+.prof-container{
+    margin-top:3em;
+    margin-left:10%;
+    width:80%;
+    /* border:2px solid rebeccapurple; */
+}
+
+.green{
+    display:flex;
+    /* border: solid yellow 3px; */
+    align-items: center;
+}
+
+.green img{
+    height:100%;
+}
+
+.green h2{
+    margin-left:1em;
+    font-family: minion-pro, serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.5em; 
+}
+
+.prof-container h3{
+    margin-top:1em;
+    padding-left:2.8em;
+    color:#129490;
+    font-size:0.9em;
+    font-weight: 400;
+}
+
+/********************
+  text
+********************/
+.container-text{
+    /* border:3px solid burlywood; */
+    display:flex;
+    justify-content: space-between;
+}
+.prof-container .text{
+    margin-top:3em;
+    width:35%;
+    /* border:3px solid orchid; */
+}
+
+.prof-container .text2{
+    background:#D4EEED;
+    padding:2em 3.2em;
+    margin-top:10em;
+}
+
+.prof-container .text p {
+    font-size: 0.9em;
+    line-height: 1.5em;
+    padding-bottom:1.2em;
+    font-weight: 400;
+}

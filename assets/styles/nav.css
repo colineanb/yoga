@@ -1,0 +1,58 @@
+*{
+    font-family: neue-haas-unica, sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size:16px;
+    margin: 0;
+    padding: 0;
+}
+
+/********************
+        NAV 
+********************/
+
+nav{
+    display: flex;
+    align-items: center;
+    width: 99.8%;
+    /* position: fixed; */
+    z-index: 99999;
+    /* border:2px solid red; */
+    justify-content: center;
+    height:6.25em;
+
+}
+
+nav .nav-menu{
+    width: 80%;
+    display:flex;
+    /* border:solid blueviolet 4px; */
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+nav .nav-menu ul{
+    display:flex;
+    flex-direction: row;
+}
+nav .nav-menu ul li{
+    text-decoration: none;
+    color: #010101;
+    list-style: none;
+    margin-left:2rem;
+}
+
+nav .nav-menu a{
+    text-decoration: none;
+    color: #010101;
+    list-style: none;
+    font-weight:400;
+}
+
+.btn-contact{
+    background-color: #E7F3F1;
+    color:white;
+    padding: 0.6em 1.5em;
+    border-radius: 1000px;
+}
+
