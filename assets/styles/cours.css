@@ -2,3 +2,59 @@
     display:flex;
     justify-content:flex-start;
 }
+
+
+/********************
+     3 cards
+********************/
+.second-container{
+    background: #F7FBFB;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+.card-container{
+    /* border:2px solid royalblue; */
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 3em;
+    margin-bottom: 3em;
+}
+
+.card-container .img-container{
+    padding-top:2em;
+    /* border:2px solid rebeccapurple; */
+    display:flex;
+    justify-content: center;
+}
+
+
+.card-container .content-card{
+    /* border:3px solid orchid; */
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top:0.8em;
+    text-align: center;
+}
+
+.second-card{
+    width:17em;
+}
+
+.card-container .content-card h4{
+    color:#129490;
+    font-weight: 500;
+}
+
+.card-container .content-card p{
+    font-weight: 300;
+    margin-top:0.7em;
+    line-height: 1.5em;
+}
+
+.card-container .content-card b{
+    font-weight: 400;
+}
