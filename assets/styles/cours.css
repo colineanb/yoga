@@ -1,8 +1,55 @@
 .titles {
     display:flex;
     justify-content:flex-start;
+    /* border:3px solid salmon; */
+    width:45%;
 }
 
+.content{
+    /* border: 3px solid royalblue; */
+    margin-bottom:5em;
+}
+
+/********************
+    text 
+********************/
+.content-text-cours{
+    /* border:solid 2px sandybrown; */
+    margin-top : 2em;
+}
+
+.content-text-cours p {
+    font-size:0.9em;
+}
+
+/********************
+    img + text
+********************/
+
+.content .image-container{
+    display:flex;
+    flex-direction:column;
+    align-items: flex-end;
+    justify-content: flex-start;
+    /* border:solid orangered 3px; */
+    width:40%;
+}
+
+.content .image-container img{
+    width:75%;
+    height:75%;
+}
+
+
+.content .image-container p{
+    margin-top:2em;
+    font-size:0.9em;
+}
+
+.content b{
+    font-weight: 500;
+    font-size:1em;
+}
 
 /********************
      3 cards
@@ -57,4 +104,54 @@
 
 .card-container .content-card b{
     font-weight: 400;
+}
+
+/********************
+     thrird container
+********************/
+
+.third-container{
+    margin-left:10%;
+    width:80%;
+    display:flex;
+    margin-top:5em;
+    flex-direction: column;
+}
+
+.text-explication{
+    /* border:2px solid thistle; */
+    display:flex;
+    justify-content: space-between;
+    margin-top:2em;
+}
+
+
+.text-explication .first-text-container{
+    /* border:2px solid red; */
+    width:40%;
+}
+
+.text-explication .second-text-container{
+    /* border:2px solid blueviolet; */
+    width:40%;
+}
+
+.text-explication h5{
+    font-weight: 500;
+}
+
+.button{
+    display:flex; 
+    justify-content: center;
+}
+
+.button a {
+    text-decoration: none;
+    background:#129490;
+    padding:0.6em 1.5em;
+    border-radius: 100px;
+    font-weight: 500;
+    color:white;
+    margin-bottom:8em;
+    margin-top:5em;
 }

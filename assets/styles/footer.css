@@ -1,0 +1,58 @@
+
+
+/********************
+      Footer
+********************/
+
+footer{
+    background:#063D40;
+    width:100%;
+    height:15em;
+    display:flex;
+    align-items: center;
+}
+
+.container-footer{
+    width:80%;
+    margin-left:10%;
+    height: 8em;
+    border:1px solid red;
+
+}
+
+.container-footer .left-content{
+    display:flex;
+    flex-direction: column;
+    border:1px solid blue;
+    width:50%;
+    height: 100%;
+    justify-content: space-between;
+
+
+}
+
+.container-footer .left-content h2{
+    font-family: minion-pro, serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.5em; 
+    color:white;
+    margin-bottom:0.5em;
+}
+
+.container-footer .left-content p{
+    color:white;
+    font-size: 0.9em;
+}
+
+
+
+.container-footer .left-content a {
+    text-decoration: none;
+    background:#129490;
+    padding:0.6em 1.5em;
+    border-radius: 100px;
+    font-weight: 500;
+    color:white;
+    width:6.7em;
+}
