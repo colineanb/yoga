@@ -21,13 +21,6 @@
 
 }
 
-.titles .title-container h1{
-   font-size: 2.2em; 
-   font-weight: 500;
-   line-height: 1.5em;
-   margin-bottom:1.5em;
-}
-
 .titles .title-container b{
     font-family: minion-pro, serif;
     font-style: italic;
@@ -43,7 +36,7 @@
 
 .green{
     display:flex;
-    /* border: solid yellow 3px; */
+    /* border: solid brown 3px; */
     align-items: center;
 }
 
@@ -51,39 +44,25 @@
     height:100%;
 }
 
-.green h2{
-    margin-left:1em;
-    font-family: minion-pro, serif;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 1.5em; 
+
+.content .image-container-price{
+    width:40%;
+    height: 10%;
+    /* border:3px solid red; */
 }
 
-.little-title-container h3{
-    margin-top:0.1em;
-    padding-left:2.8em;
-    color:#129490;
-    font-size:0.9em;
-    font-weight: 400;
+.content .image-container-price img {
+    width:100%;
 }
-
-.image-container{
-    display:flex;
-    justify-content: flex-end;
-}
-
-.image-container img{
-    /* border: solid yellow 3px; */
-    width:85%;
-    height: 90%;
-}
-
 /********************
       Warning
 ********************/
 
 .warning {
     margin-top:4em;
+    /* border:3px solid slateblue; */
+    display:flex;
+    justify-content: space-between;
 }
 
 .warning p {
@@ -91,6 +70,15 @@
     font-weight: 300;
     font-style: normal;
 }
+
+.warning a{
+    color:#129490;
+    font-weight: 500;
+    text-decoration: none;
+    border-bottom:2px solid #129490;
+    padding-bottom:0.4em;
+}
+
 /********************
       Contenu
 ********************/
@@ -118,9 +106,11 @@
     /* border:3px solid paleturquoise; */
 }
 
-.green-bg .first-line .left h4{ 
-   font-size: 1.15em;
-   font-weight: 550; 
+.green-bg .first-line .left .title-price { 
+    font-family: freight-text-pro, serif;
+    color:#2D3047;
+    font-size: 1.2em;
+    font-weight: 600;
 }
 
 .green-bg .first-line .left p{ 
@@ -135,9 +125,10 @@
     /* border:3px solid red; */
 }
 
-.green-bg .first-line .right h4{
-    font-size: 1.15em;
-    font-weight: 550; 
+.green-bg .first-line .right .price{
+    color:#2D3047;
+    font-weight: 500;
+    font-size: 1.2em;
 }
 
 .last {
@@ -162,6 +153,5 @@
     border-radius: 100px;
     font-weight: 500;
     color:white;
-    margin-bottom:8em;
 }
 

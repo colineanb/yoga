@@ -5,6 +5,7 @@
     font-size:16px;
     margin: 0;
     padding: 0;
+    /* color:#2D3047; */
 }
 
 /********************
@@ -46,7 +47,31 @@ nav .nav-menu a{
     color: white;
     list-style: none;
     font-weight:400;
+
 }
+
+/* nav .nav-menu li ul {
+    border:2px solid red;
+    display:flex;
+    flex-direction: column;
+    margin-top:0.5em;
+    padding:1em;
+    background-color: #E7F3F1;
+
+}
+
+nav .nav-menu li ul li{
+    border:2px solid orange;
+    margin-left:0;
+ 
+
+}
+
+nav .nav-menu li ul li a{
+    color:#2D3047;
+
+} */
+
 
 .btn-contact{
     background-color: #E7F3F1;
@@ -55,6 +80,35 @@ nav .nav-menu a{
     border-radius: 1000px;
 }
 
+
+
+/******************
+       H1 H2 H3 H4 H5  
+********************/
+
+h2{
+    margin-top:0.5em;
+    margin-bottom: 0.5em;
+    font-size: 2.3em;
+    line-height: 1.5em;
+    font-family: freight-text-pro, serif;
+    width:60%;
+}
+
+h3{
+    margin-left:1em;
+    font-family: freight-text-pro, serif;
+    font-weight: 500;
+    font-size: 1.7em;
+    width:60%;
+}
+
+h5{
+    font-size: 1em;
+    font-family: freight-text-pro, serif;
+    color:white;
+    opacity: 50%;
+}
 
 /********************
         Main Content 
@@ -68,7 +122,7 @@ nav .nav-menu a{
 }
 
 .main-content{
-    margin-top:4em;
+    margin-top:2em;
     margin-left:10%;
     width:80%;
     /* border:3px solid orange; */
@@ -86,26 +140,28 @@ nav .nav-menu a{
 }
 
 .main-content .first-container .left-content h1{
-   font-size: 2.2em; 
-   font-weight: 500;
-   line-height: 1.5em;
-   margin-bottom:0.7em;
-   color:white
+    font-family: freight-text-pro, serif;
+    font-weight: 100;
+    font-style: normal;
+    font-size: 3em; 
+    margin-bottom:0.7em;
+    margin-top:0.3em;
+    color:white
+}
+
+.main-content .first-container .left-content h5{
+    font-size: 1em;
+    font-family: freight-text-pro, serif;
+    color:white;
+    opacity: 50%;
 }
 
 .main-content .first-container .left-content b{
-    font-family: minion-pro, serif;
+    font-family: freight-text-pro, serif;
     font-style: italic;
     color:#71BCBA; 
-    font-size: 1.3em; 
+    font-size: 1em; 
     font-weight: 600;
- }
-
- .main-content .first-container .left-content h2{
-     font-weight: 1em;
-     color:white;
-     font-weight: 500;
-     margin-bottom:4em;
  }
 
  .main-content .first-container .left-content a{
@@ -115,6 +171,7 @@ nav .nav-menu a{
     border-radius: 100px;
     font-weight: 500;
     color:white;
+    cursor: pointer;
  }
 
  .main-content .first-container .right-content {
@@ -131,49 +188,107 @@ nav .nav-menu a{
      font-weight: 600;
  }
 
+  /********************
+        Course
+********************/
+
+.course {
+    /* border:2px solid blue; */
+    display:flex;
+    justify-content: flex-end;
+    width:80%;
+    margin-left:10%;
+    position: relative;
+    top:-4em;
+}
+
+.course img{
+    width:90%;
+    padding-left:2%;
+}
+
+.course .second-course-img{
+    display:flex;
+    justify-content: flex-end;
+}
+
+.course .first-course-img{
+    display:flex;
+    justify-content: flex-end;
+}
+
+
  /********************
        Light bg 
 ********************/
 
 .light-bg{
     display:flex;
-    background: #E7F3F1;
-    height:15em;
+    height:30em;
     align-items: center;
+    /* border:2px solid red; */
+    justify-content: space-between;
 }
+
 
 .light-bg .second-container{
     /* border:2px solid red; */
     margin-left:10%;
-    width:80%;
+    width:40%;
+    /* border:2px solid orange; */
+    height:20em;
+}
+
+.light-bg .second-container h5{
+    color:#2D3047;
+    opacity: 100;
 }
 
 .light-bg .second-container p{
-    font-size: 2em;
-    line-height: 2em;
-    font-family: minion-pro, serif;
-}
-
-.light-bg .second-container b{
-    font-weight:bold;
-    font-size: 1em;
-    font-family: minion-pro, serif;
+    width:60%;
+    margin-bottom:3em;
 }
 
 .light-bg img{
     margin-right:10%;
-    margin-top:17.5em;
+    width:30%;
 }
 
+.light-bg .second-container a{
+    text-decoration: none;
+    background:#129490;
+    padding:0.6em 1.5em;
+    border-radius: 100px;
+    font-weight: 500;
+    color:white;
+    cursor: pointer;
+}
+
+
+/********************
+   line
+********************/
+
+.line-container{
+    /* border:2px solid black; */
+    position: relative;
+    top:-12.5em;
+    overflow-x: hidden;
+}
+
+.line-container img{
+    width:106%;
+}
 
 /********************
    L'intervenante
 ********************/
 .prof-container{
-    margin-top:3em;
     margin-left:10%;
-    width:80%;
+    width:90%;
     /* border:2px solid rebeccapurple; */
+    position: relative;
+    top:-5em;
 }
 
 .green{
@@ -186,40 +301,49 @@ nav .nav-menu a{
     height:100%;
 }
 
-.green h2{
+.green h3{
     margin-left:1em;
-    font-family: minion-pro, serif;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 1.5em; 
+    font-family: freight-text-pro, serif;
+    font-weight: 500;
+    font-size: 1.7em;
 }
 
-.prof-container h3{
-    margin-top:1em;
+.prof-container h4{
+    /* margin-top:0.1em; */
     padding-left:2.8em;
     color:#129490;
     font-size:0.9em;
     font-weight: 400;
 }
 
-/********************
-  text
-********************/
+.container-text{
+    /* border:2px solid green; */
+}
+
+.container-text .text{
+    /* border:2px solid violet; */
+    height: 100%;
+    padding-top:5em;
+    width: 35%;
+}
+
+.container-text .text .title{
+    color:#129490;
+    font-family: freight-text-pro, serif;
+    font-size: 1.1em;
+    font-weight: 600;
+}
+
+.text-2{
+    background: #F6FBFA;
+    padding:5em;
+    width: 35%;
+}
+
 .container-text{
     /* border:3px solid burlywood; */
     display:flex;
     justify-content: space-between;
-}
-.prof-container .text{
-    margin-top:3em;
-    width:35%;
-    /* border:3px solid orchid; */
-}
-
-.prof-container .text2{
-    background:#D4EEED;
-    padding:2em 3.2em;
-    margin-top:10em;
 }
 
 .prof-container .text p {
@@ -227,4 +351,123 @@ nav .nav-menu a{
     line-height: 1.5em;
     padding-bottom:1.2em;
     font-weight: 400;
+}
+
+.last-text{
+    margin-bottom:2em;
+}
+
+.container-text a{
+    text-decoration: none;
+    background:#129490;
+    padding:0.6em 1.5em;
+    border-radius: 100px;
+    font-weight: 500;
+    color:white;
+    cursor: pointer;
+}
+
+
+/********************
+   Citation
+********************/
+
+.citation-container{
+    /* border:3px solid brown; */
+    width:80%;
+    margin-left:10%;
+    display:flex;
+    flex-direction: column;
+}
+
+.text-citation{
+    /* border:5px solid rosybrown; */
+    display:flex;
+    justify-content: center;
+}
+
+.citation-container h3{
+    margin-left:1em;
+    font-family: freight-text-pro, serif;
+    font-weight: 500;
+    font-size: 1.7em;
+    width:60%;
+    text-align: center;
+}
+
+.citation-container-img{
+    display:flex;
+    justify-content: flex-end;
+    /* border:3px solid royalblue; */
+    margin-top:-3em;
+}
+
+.citation-container img{
+    width:40%;
+}
+
+
+/********************
+         Pilliers
+********************/
+
+.pillers-container{
+    width:80%;
+    margin-left:10%;
+    /* border:2px solid yellow; */
+    margin-top:5em;
+
+}
+
+.pillers-container h5{
+    color:#2D3047;
+    opacity: 1;
+}
+
+.pilliers-img{
+    /* border:5px solid slateblue; */
+    display: flex;
+
+}
+.pilliers-img img{
+    width:100%;
+}
+
+.pilliers-img a{
+    /* border:4px solid orange; */
+}
+
+.img-center{
+    padding-left:2%;
+    padding-right:2%;
+}
+
+.pilliers-small-title{
+    /* border:3px solid violet; */
+    display: flex;
+    justify-content: space-between;
+    margin-top:-7em;
+}
+
+.pilliers-small-title .card {
+    /* border:red 2px solid; */
+    width:32%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.pilliers-small-title .card h3{
+    width:100%;
+    text-align: center;
+    margin-left: 0em;
+    color:white;
+}
+
+.pilliers-small-title .card h5{
+    color:white;
+    font-family: neue-haas-unica, sans-serif;
+    font-weight: 400;
+    color:white;
+    text-decoration: underline;
 }

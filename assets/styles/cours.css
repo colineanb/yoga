@@ -10,6 +10,40 @@
     margin-bottom:5em;
 }
 
+.titles .title-container h2{
+    margin-top:0.5em;
+    margin-bottom: 1em;
+    font-size: 2.3em;
+    line-height: 1.5em;
+    font-family: freight-text-pro, serif;
+    width:60%;
+}
+
+.titles .title-container h2 b{
+    font-family: freight-text-pro, serif;
+    font-style: italic;
+    color:#71BCBA; 
+    font-size: 1em; 
+    font-weight: 600;
+ }
+
+ h3 {
+    margin-left:1em;
+    font-family: freight-text-pro, serif;
+    font-weight: 500;
+    font-size: 1.7em;
+    width:60%;
+ }
+
+
+.little-title-container h4{
+    /* margin-top:0.1em; */
+    padding-left:2.8em;
+    color:#129490;
+    font-size:0.9em;
+    font-weight: 400;
+}
+
 /********************
     text 
 ********************/
@@ -115,43 +149,206 @@
     width:80%;
     display:flex;
     margin-top:5em;
-    flex-direction: column;
-}
-
-.text-explication{
-    /* border:2px solid thistle; */
-    display:flex;
+    flex-direction: row;
+    /* border:2px solid orange; */
     justify-content: space-between;
-    margin-top:2em;
 }
 
-
-.text-explication .first-text-container{
+.third-container-top{
+    margin-bottom: 2em;
+}
+.third-container .third-container-left {
     /* border:2px solid red; */
     width:40%;
 }
 
-.text-explication .second-text-container{
-    /* border:2px solid blueviolet; */
-    width:40%;
+.third-container .time{
+    /* border:2px solid violet; */
+    width:100%;
 }
 
-.text-explication h5{
-    font-weight: 500;
-}
-
-.button{
-    display:flex; 
-    justify-content: center;
-}
-
-.button a {
+/**** 3 étiquettes*******/
+.cours-time{
     text-decoration: none;
     background:#129490;
     padding:0.6em 1.5em;
     border-radius: 100px;
     font-weight: 500;
     color:white;
-    margin-bottom:8em;
+}
+
+/****** paragraph *******/
+
+.third-container .paragraph{
+    margin-top:2em;
+}
+
+.third-container .paragraph p{
+    margin-bottom: 1.5em;
+    font-size: 16px;
+    font-size:0.9em;
+}
+
+.third-container .third-container-left .paragraph .bold{
+    font-weight: 500;
+    margin-bottom: 0.3em;
+}
+
+
+.third-container .third-container-right{
+    /* border:2px solid red; */
+    width:40%;
+    margin-top:9em;
+} 
+
+.last-paragraph{
+    margin-bottom: 2em;
+}
+
+a.time{
+    background:#E7F3F1;
+    color:#129490;
+    border-radius: 5px;
+    text-decoration: none;
+    padding:0.6em 1.5em;
+    font-weight: 500;
+    cursor: default;
+}
+
+
+a.button{
+    text-decoration: none;
+    background:#129490;
+    padding:0.6em 1.5em;
+    border-radius: 100px;
+    font-weight: 500;
+    color:white;
+}
+
+/********************
+     fourth container
+********************/
+
+.fourth-container{
+    margin-left:10%;
+    width:80%;
+    display:flex;
     margin-top:5em;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    /* border:2px salmon solid; */
+}
+
+h5{
+    font-size: 1em;
+    font-family: freight-text-pro, serif;
+    color:#2D3047;
+    margin-top:1em;
+    text-align: center;
+    line-height: 30px;
+}
+
+/********************
+     fifth container
+********************/
+
+.fifth-container{
+    width:100%;
+    display:flex;
+    margin-top:5em;
+    background-color:#E7F3F1;
+    flex-direction: column;
+    align-items: center;
+    /* border:2px salmon solid; */
+}
+
+.fifth-container .discover{
+    font-family: freight-text-pro, serif;
+    font-size: 1.5em;
+    padding-top:2em;
+    color:#129490;
+    font-weight: 600;
+}
+
+.fifth-container .links{
+    display:flex;
+    flex-direction: row;
+}
+
+.fifth-container .links p{
+    padding:3em;
+    font-family: freight-text-pro, serif;
+    font-size: 1.1em;
+}
+
+/********************
+      Footer
+********************/
+
+footer{
+    background:#063D40;
+    width:100%;
+    height:15em;
+    display:flex;
+    align-items: center;
+}
+
+.container-footer{
+    width:80%;
+    margin-left:10%;
+    height: 8em;
+    /* border:1px solid red; */
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.container-footer .left-content{
+    display:flex;
+    flex-direction: column;
+    /* border:1px solid blue; */
+    width:70%;
+    height: 100%;
+    justify-content: space-between;
+}
+
+.container-footer .left-content h2{
+    font-family: freight-text-pro, serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.3em; 
+    color:white;
+    margin-bottom:0.5em;
+}
+
+.container-footer .left-content p{
+    color:white;
+    font-size: 0.9em;
+
+}
+
+.last-p{
+    margin-bottom:2em;
+}
+
+.container-footer .left-content a {
+    text-decoration: none;
+    background:#129490;
+    padding:0.6em 1.5em;
+    border-radius: 100px;
+    font-weight: 500;
+    color:white;
+    width:6.7em;
+}
+
+.container-footer .right-content {
+    /* border:2px solid greenyellow; */
+}
+
+.container-footer .right-content p{
+    color:white;
+    line-height: 2em;
+    margin-top:0.7em;
 }

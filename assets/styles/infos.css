@@ -1,16 +1,24 @@
 
+.content-informations{
+    margin-top:4em;
+    /* border:3px solid red; */
+    width:80%;
+    margin-left:10%;
+
+}
+
 .infos{
     /* border:solid red 2px; */
     display:flex;
-    margin-top:3em;
     justify-content: space-between;
-    margin-right:10%;
+    width:80%;
+    margin-left:10%;
     margin-bottom: 4em;
 }
 
 .infos .content-infos{
     /* border:solid 2px orange; */
-    width:30em;
+    width:28em;
 }
 
 .infos .content-infos .paragraph{
@@ -18,20 +26,36 @@
     margin-bottom: 2em;
 }
 
-.infos .content-infos .paragraph .logo-infos{
-    /* border:2px solid lightcoral; */
-    display:flex;
-    margin-bottom: 0.4em;
+.infos .content-infos .paragraph .container-paragraph-icon {
+   /* border:2px solid orange; */
+   line-height: 2.5em;
+   display:flex;
 }
 
-.infos .content-infos .paragraph .logo-infos h3{
-    font-weight: 500;
-    margin-left:1em;
+.infos .content-infos .paragraph .container-paragraph{
+    /* border:2px solid orange; */
+    line-height: 2em;
+ }
+
+.icons{
+    /* border:2px solid blue; */
+    display:flex;
+    flex-direction: column; 
+    margin-right:1em;
 }
+
+.icons img{
+    padding-top: 0.6em;
+    padding-bottom: 0.6em;
+}
+
 
 .infos .content-infos .paragraph b{
     font-weight: 500;
 }
+
+
+/**** warning****/
 
 .warning-info{
     background: #E7F3F1;
@@ -46,7 +70,7 @@
     
 }
 
-.warning-info h3{
+.warning-info .p-warning{
     color: #129490;
     font-weight: 500;
     padding-top:1em;
@@ -68,5 +92,5 @@
 }
 
 .indication{
-    margin-top:1em;
+    margin-top:0.5em;
 }
